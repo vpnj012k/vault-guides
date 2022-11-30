@@ -4,16 +4,18 @@ GEM
     faraday (0.15.4)
       multipart-post (>= 1.2, < 3)
     multipart-post (2.1.1)
-    mustermann (1.0.3)
-    rack (2.1.4)
-    rack-protection (2.0.7)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.4)
+    rack-protection (3.0.4)
       rack
-    sinatra (2.0.7)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.7)
+    ruby2_keywords (0.0.5)
+    sinatra (3.0.4)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.4)
       tilt (~> 2.0)
-    tilt (2.0.10)
+    tilt (2.0.11)
 
 PLATFORMS
   ruby
@@ -21,7 +23,7 @@ PLATFORMS
 DEPENDENCIES
   faraday
   rack
-  sinatra
+  sinatra (>= 2.2.3)
 
 BUNDLED WITH
-   1.17.2
+   1.17.3
