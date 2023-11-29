@@ -1,4 +1,4 @@
-FROM ruby:2.6.2
+FROM ruby:2.7.6
 MAINTAINER Lynn Frank <fwebber@hashicorp.com>
 
 RUN apt-get update && \
